@@ -1,0 +1,42 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - AddResponseHeader=source, heart
+      routes:
+        - id: api_route
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+  redis:
+    host: localhost
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8  #最大连接
+        max-idle: 8   #最大空闲连接
+        min-idle: 0   #最小空闲连接
+        max-wait: 100ms #连接等待时间
+    database: 0
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          gateway: trace
+dubbo:
+  consumer:
+    timeout: 3000
+    retries: 0
+  application:
+    name: heartApi-gateway
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: zk-registry
+    address: nacos://127.0.0.1:8848/nacos
+    parameters:
+      namespace: be38b4f5-9677-40f6-b402-4c800814edae

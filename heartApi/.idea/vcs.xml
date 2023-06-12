@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heart-api-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heart-api-client-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heart-api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heart-api-interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heartApi-common" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/heartApi.iml" filepath="$PROJECT_DIR$/.idea/heartApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heart-api-backend/heartApi-backend.iml" filepath="$PROJECT_DIR$/heart-api-backend/heartApi-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heart-api-client-sdk/heartApi-client-sdk.iml" filepath="$PROJECT_DIR$/heart-api-client-sdk/heartApi-client-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heartApi-common/heartApi-common.iml" filepath="$PROJECT_DIR$/heartApi-common/heartApi-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heart-api-gateway/heartApi-gateway.iml" filepath="$PROJECT_DIR$/heart-api-gateway/heartApi-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heart-api-interface/heartApi-interface.iml" filepath="$PROJECT_DIR$/heart-api-interface/heartApi-interface.iml" />
+    </modules>
+  </component>
+</project>
